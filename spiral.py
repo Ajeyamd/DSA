@@ -1,4 +1,7 @@
+#spiral matrix
+# 1 Transpose the matrix
 
+# 2 reverse the rows of the matrix
 
 def printSpiralOrder(mat):
  
