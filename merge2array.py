@@ -7,4 +7,4 @@ def merge(nums1, m, nums2, n):
         
         nums1.sort()
         
-print(merge(nums1,m)
+print(merge(nums1,0,nums2,5))
