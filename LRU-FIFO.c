@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include<ctype.h>
 
 void FIFO(char [ ],char [ ],int,int);
 void lru(char [ ],char [ ],int,int);
