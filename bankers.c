@@ -1,6 +1,6 @@
 #include <stdio.h> 
 #include <stdlib.h> 
-#include<ctype.h>
+#include <ctype.h>
 int main()
 {
 int Max[10][10], need[10][10], alloc[10][10], avail[10], 
