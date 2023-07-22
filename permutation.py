@@ -1,3 +1,4 @@
+#Permutation of numbers
 a = [1,2,3]
 b = [2,1,3]
 
