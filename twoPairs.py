@@ -1,4 +1,4 @@
-arr=[1,2,3,4,2,4,5,2]
+arr=[1,2,3,4,2,4,5,2,9,8]
 def pairs(array,target):
    for i in range(len(array)):
        for j in range(i+1,len(array)):
@@ -6,4 +6,4 @@ def pairs(array,target):
                continue
            elif array[i]+array[j] == target:
                print(f"{i} {j}")
-pairs(arr,6)
+pairs(arr,8)
