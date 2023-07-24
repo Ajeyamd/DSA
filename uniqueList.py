@@ -1,3 +1,4 @@
+#Unique number in an array
 def unique(list):
     a =[]
     for i in list:
