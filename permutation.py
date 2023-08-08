@@ -1,15 +1,7 @@
-#Permutation of numbers
-a = [1,2,3]
-b = [2,1,3]
+def g(y):
+    b = 0
+    while y >= 3:
+        (y,b) = (y/3,b+1)
+    return(b)
 
-def permutation(x,y):
-    if len(a) != len(b):
-        return False
-    a.sort()
-    b.sort()
-    if a == b:
-        return True
-    else:
-        return False
-print(permutation(a,b))
-    
+print(g(728))
