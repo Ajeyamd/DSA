@@ -1,10 +1,10 @@
-# def g(y):
-#     b = 0
-#     while y >= 3:
-#         (y,b) = (y/3,b+1)
-#     return(b)
+def g(y):
+    b = 0
+    while y >= 3:
+        (y,b) = (y/3,b+1)
+    return(b)
 
-# print(g(728))
+print(g(728))
 
 
 # def f(n):
@@ -16,14 +16,14 @@
 
 # print(f(90)-f(89))
 
-# def h(n):
-#     s = True
-#     for i in range(1,n+1):
-#         if i*i == n:
-#             s = False
-#     return(s)
+def h(n):
+    s = True
+    for i in range(1,n+1):
+        if i*i == n:
+            s = False
+    return(s)
 
-# print(h(9))
+print(h(9))
 
 # startmsg = "python"
 # endmsg = ""
