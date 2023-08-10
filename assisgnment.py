@@ -7,14 +7,14 @@ def g(y):
 print(g(728))
 
 
-# def f(n):
-#     s = 0
-#     for i in range(2,n):
-#         if n%i == 0 and i%2 == 1:
-#             s = s+1
-#     return(s)
+def f(n):
+    s = 0
+    for i in range(2,n):
+        if n%i == 0 and i%2 == 1:
+            s = s+1
+    return(s)
 
-# print(f(90)-f(89))
+print(f(90)-f(89))
 
 def h(n):
     s = True
@@ -25,12 +25,12 @@ def h(n):
 
 print(h(9))
 
-# startmsg = "python"
-# endmsg = ""
-# for i in range(1,1+len(startmsg)):
-#   endmsg = startmsg[-i] + endmsg
+startmsg = "python"
+endmsg = ""
+for i in range(1,1+len(startmsg)):
+  endmsg = startmsg[-i] + endmsg
 
-# print(endmsg)
+print(endmsg)
 
 def mystery(l):
   l = l[1:]
